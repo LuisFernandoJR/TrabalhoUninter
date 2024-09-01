@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+}
+.container{
+    display: grid;
+}
+header{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: darkslategray;
+    border-style: outset;
+    border-radius: 200px;
+    border-color: gray;
+}
+    /*id para troca de texto do cabecalho*/
+#blf {
+    text-align: center;
+    color: whitesmoke;
+}
+    /*id para troca de texto do cabecalho*/
+#plf {
+    text-align: center;
+    color: whitesmoke;
+}
+/*id para troca de texto do cabecalho*/
+#flf {
+    text-align: center;
+    color: whitesmoke;
+}
+        /*id para troca de texto do cabecalho*/
+#blf {
+    text-align: center;
+    color: whitesmoke;
+}
+/*class dos diagramas*/
+.idiagrama{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 40%;
+    height: 300px;
+    border-style: solid;
+    border-color: darkslategray;
+}
+.menu{
+    grid-column-start: 6;
+    grid-column-end: 12;
+    justify-content: center;
+    gap: 20px;
+}
+ul{
+    list-style-type: none;
+    
+}
+#limenu{
+    float: left;
+}
+a,
+a:link{
+    text-decoration: none;
+    padding: 8px 16px;
+    border: solid darkslategray 1px;
+}
+a:hover{
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 70%;
+    height: 580px;
+    border-style: outset;
+    border-color: darkslategray;
+    margin-left: 1px;
+
+}
+.TextoPrincipal{
+    grid-column-start: 3;
+    grid-column-end: 12;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+.info{
+    text-align: justify;
+}
+footer{
+    grid-column: 1;
+    grid-column-end: 12;
+    text-align: center;
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+#bt{
+    height: 50px;
+    width: 100px;
+    margin-left: 155px;
+}
+/*media query para dispositivos moveis*/
+@media only screen and (max-width: 767px){
+    .wrapper{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    img{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    .TextoPrincipal{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+}
+
